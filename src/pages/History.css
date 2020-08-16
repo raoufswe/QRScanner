@@ -1,0 +1,11 @@
+.svg-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.svg-wrapper svg {
+  max-width: 50%;
+}

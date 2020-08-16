@@ -1,0 +1,28 @@
+.scanner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.scanner-wrapper p {
+  font-size: 18px;
+  margin-top: 3rem;
+}
+
+.scanner-wrapper svg {
+  fill: white;
+  animation: animateScanner 1.5s alternate infinite ease-in;
+  width: 50%;
+  max-width: 300px;
+}
+
+@keyframes animateScanner {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
